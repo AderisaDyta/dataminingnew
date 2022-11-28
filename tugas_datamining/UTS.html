@@ -52,8 +52,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="LATIHAN 1" href="../Latihan/KNN.html" />
-    <link rel="prev" title="Tugas 3" href="Tugas-3.html" />
+    <link rel="next" title="KNN" href="../Latihan/KNN.html" />
+    <link rel="prev" title="Tugas 3 Naive Bayes" href="Tugas-3.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -133,17 +133,17 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas-1.html">
-   Tugas 1
+   Tugas 1 Statistik Deskritiasi
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas-2.html">
-   Tugas 2
+   Tugas 2 Deskritisasi
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="Tugas-3.html">
-   Tugas 3
+   Tugas 3 Naive Bayes
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -160,12 +160,12 @@ const thebe_selector_output = ".output, .cell_output"
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../Latihan/KNN.html">
-   LATIHAN 1
+   KNN
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="../Latihan/K-Means%20Clustering%20Data%20Iris.html">
-   TUGAS 4
+   TUGAS 4 K-Means Clustering
   </a>
  </li>
  <li class="toctree-l1">
@@ -431,7 +431,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-e0f93846-a1c5-496a-a0c7-2a4120bad2ca">
+  <div id="df-ef4d39da-3dd1-419e-a49a-8825c15fcf0a">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -611,7 +611,7 @@ title="Print to PDF"
 </table>
 <p>116 rows × 10 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-e0f93846-a1c5-496a-a0c7-2a4120bad2ca')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-ef4d39da-3dd1-419e-a49a-8825c15fcf0a')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -662,12 +662,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-e0f93846-a1c5-496a-a0c7-2a4120bad2ca button.colab-df-convert');
+          document.querySelector('#df-ef4d39da-3dd1-419e-a49a-8825c15fcf0a button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-e0f93846-a1c5-496a-a0c7-2a4120bad2ca');
+          const element = document.querySelector('#df-ef4d39da-3dd1-419e-a49a-8825c15fcf0a');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -714,7 +714,7 @@ title="Print to PDF"
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-b2a862a3-4590-4061-aa41-c0d9c664d3fd">
+  <div id="df-942591c9-b593-4794-9d3a-0c07503f10ad">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -809,7 +809,7 @@ title="Print to PDF"
   </tbody>
 </table>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-b2a862a3-4590-4061-aa41-c0d9c664d3fd')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-942591c9-b593-4794-9d3a-0c07503f10ad')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -860,12 +860,12 @@ title="Print to PDF"
 
       <script>
         const buttonEl =
-          document.querySelector('#df-b2a862a3-4590-4061-aa41-c0d9c664d3fd button.colab-df-convert');
+          document.querySelector('#df-942591c9-b593-4794-9d3a-0c07503f10ad button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-b2a862a3-4590-4061-aa41-c0d9c664d3fd');
+          const element = document.querySelector('#df-942591c9-b593-4794-9d3a-0c07503f10ad');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1043,7 +1043,7 @@ Jadi, tingkat akurasi dari data berjumlah 116 baris dan 10 kolom memiliki tingka
 </div>
 <div class="cell_output docutils container">
 <div class="output text_html">
-  <div id="df-2ff50c5b-af1d-461e-a93f-7410bf7ef52b">
+  <div id="df-36a5297b-8b21-4943-b09d-f7ff1abc7c2e">
     <div class="colab-df-container">
       <div>
 <style scoped>
@@ -1223,7 +1223,7 @@ Jadi, tingkat akurasi dari data berjumlah 116 baris dan 10 kolom memiliki tingka
 </table>
 <p>116 rows × 10 columns</p>
 </div>
-      <button class="colab-df-convert" onclick="convertToInteractive('df-2ff50c5b-af1d-461e-a93f-7410bf7ef52b')"
+      <button class="colab-df-convert" onclick="convertToInteractive('df-36a5297b-8b21-4943-b09d-f7ff1abc7c2e')"
               title="Convert this dataframe to an interactive table."
               style="display:none;">
 
@@ -1274,12 +1274,12 @@ Jadi, tingkat akurasi dari data berjumlah 116 baris dan 10 kolom memiliki tingka
 
       <script>
         const buttonEl =
-          document.querySelector('#df-2ff50c5b-af1d-461e-a93f-7410bf7ef52b button.colab-df-convert');
+          document.querySelector('#df-36a5297b-8b21-4943-b09d-f7ff1abc7c2e button.colab-df-convert');
         buttonEl.style.display =
           google.colab.kernel.accessAllowed ? 'block' : 'none';
 
         async function convertToInteractive(key) {
-          const element = document.querySelector('#df-2ff50c5b-af1d-461e-a93f-7410bf7ef52b');
+          const element = document.querySelector('#df-36a5297b-8b21-4943-b09d-f7ff1abc7c2e');
           const dataTable =
             await google.colab.kernel.invokeFunction('convertToInteractive',
                                                      [key], {});
@@ -1356,13 +1356,13 @@ Jadi, tingkat akurasi dari data berjumlah 116 baris dan 10 kolom memiliki tingka
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Tugas 3</p>
+            <p class="prev-next-title">Tugas 3 Naive Bayes</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="../Latihan/KNN.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">LATIHAN 1</p>
+        <p class="prev-next-title">KNN</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
